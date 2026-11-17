@@ -10,3 +10,17 @@
 .nav-item:focus-visible,.cv-menu button:focus-visible{outline:2px solid #3b82f6;outline-offset:-2px}
 .drop-hot{background:#dbeafe!important;color:#1e3a8a!important;outline:2px dashed #3b82f6;outline-offset:-2px}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.btn-volver {
+  background-color: rgba(52, 211, 153, 0.6);
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: 500;
+  text-decoration: none;
+  color: #111827;
+  transition: background-color 0.2s ease;
+}
+
+.btn-volver:hover {
+  background-color: rgba(52, 211, 153, 0.8);
+}
