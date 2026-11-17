@@ -2018,9 +2018,13 @@ Aquí está el currículum:`;
               {/* Header del editor */}
               <header className="print-hide print:hidden bg-white border-b px-6 py-3 flex justify-between items-center shadow-sm z-20 shrink-0">
                 <div className="flex items-center gap-4">
-                  <button onClick={() => { setView('dashboard'); setCurrentProfileId(null); setIsTrashMode(false); }} className="flex items-center gap-2 text-gray-600 hover:text-blue-600 font-bold text-sm transition">
+                  <button onClick={() => { setView('dashboard'); setCurrentProfileId(null); setIsTrashMode(false); }} className="btn-volver">
                     <IconHome /> Volver al Directorio
                   </button>
+                  {/* cambio en el estilo del boton */}
+                  {/* <button onClick={() => { setView('dashboard'); setCurrentProfileId(null); setIsTrashMode(false); }} className="flex items-center gap-2 text-gray-600 hover:text-blue-600 font-bold text-sm transition">
+                    <IconHome /> Volver al Directorio
+                  </button> */}
                   <div className="h-6 w-px bg-gray-300"></div>
                   <div>
                     <h1 className="font-bold text-gray-800 text-sm">{data.personal.name || 'Nuevo Currículum'}</h1>
