@@ -1669,7 +1669,7 @@ Aquí está el currículum:`;
                     <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-blue-500 to-emerald-400 flex items-center justify-center text-slate-950 font-extrabold text-lg shadow-lg">CV</div>
                     <div>
                       <h1 className="text-xl font-extrabold tracking-tight leading-tight">CV Creator Elite</h1>
-                      <p className="text-xs text-slate-400">Gestión de Reclutamiento ATSSSSS</p>
+                      <p className="text-xs text-slate-400">Gestión de Reclutamiento ATS</p>
                     </div>
                   </div>
                   <nav className="flex bg-white/5 p-1 rounded-xl">
